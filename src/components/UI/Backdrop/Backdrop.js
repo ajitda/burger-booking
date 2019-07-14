@@ -1,9 +1,8 @@
 import React from 'react';
+import './Backdrop.css';
 
-const modal = (props) => (
-    <div>
-        
-    </div>
+const backdrop = (props) => (
+    props.show ? <div className='Backdrop' onClick={props.clicked}></div> : null
 );
 
-export default modal;
+export default backdrop; 
