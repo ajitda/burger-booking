@@ -1,7 +1,6 @@
 import React from 'react';
 import './NavigationItems.css';
 import NavigationItem from './NavigationItem/NavigationItem';
-import { tsPropertySignature } from '@babel/types';
 
 const navigationItems = (props) => (
     <ul className="NavigationItems">
